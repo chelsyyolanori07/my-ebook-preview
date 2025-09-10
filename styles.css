@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Comic Sans';
+  src: url('Ldfcomicsansbold-zgma.ttf') format('truetype');
+}
+
+body {
+  font-family: "Comic Sans", cursive;
+  background: #f9f9ff;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #4d49a2, #9d95ff);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.preview {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+
+.buy {
+  text-align: center;
+}
+
+.btn {
+  background: #153539;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  font-family: "Comic Sans", cursive;
+}
+
+.btn:hover {
+  background: #5149d4;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  padding: 20px;
+}
