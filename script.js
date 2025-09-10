@@ -12,9 +12,7 @@ pdfFrame.onerror = function() {
     '<p style="color: red; margin-top: 10px;"><strong>PDF tidak dapat dimuat. Silakan gunakan tombol download di atas.</strong></p>';
 };
         
-// Periksa jika perangkat mobile
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    // Tambahkan pesan untuk pengguna mobile
     const alertBox = document.querySelector('.mobile-alert');
     alertBox.innerHTML += '<p>Beberapa browser mobile tidak mendukung preview PDF. Silakan download file-nya untuk melihat.</p>';
 }
