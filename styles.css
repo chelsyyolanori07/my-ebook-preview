@@ -72,13 +72,13 @@ iframe {
 }
 
 .btn:hover {
-  background: #5149d4;
+  background: #4c47a7;
 }
 
 footer {
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
-  color: #777;
+  color: #363535;
   padding: 20px;
 }
