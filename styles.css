@@ -5,10 +5,13 @@
 
 body {
   font-family: "Comic Sans", cursive;
-  background: #f9f9ff;
   margin: 0;
   padding: 0;
   color: #333;
+  background-image: url('background_website.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header {
